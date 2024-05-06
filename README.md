@@ -12,12 +12,12 @@ Edit card.js adding your contact information. You'll find a json object like thi
 
 ```json
 const data = {
-  "name": <your-name>,
-  "handle": <your-handle>,
+  "name": "<your-name>",
+  "handle": "<your-handle>",
   "twitter": "https://twitter.com/your-twitter",
   "github": "https://github.com/your-github",
-  "labelTwitter": <twitter-label>,
-  "labelGitHub": <github-label>,
+  "labelTwitter": "<twitter-label>",
+  "labelGitHub": "<github-label>",
 };
 ```
 
