@@ -1,5 +1,5 @@
 {
-  "name": "cli-card",
+  "name": "@micheledinelli/cli-card",
   "version": "1.0.0",
   "main": "index.js",
   "bin": {

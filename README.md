@@ -57,10 +57,19 @@ Edit card.js adding your contact information. You'll find a json object; add and
 
 ## Ship it
 
-- Login to npm using `npm login`
-- Publish with `npm publish --access=public`
+- Login to npm using
 
-Remember to configure `package.json` properly before publishing. Modify package name
+  ```sh
+  npm login
+  ```
+
+- Publish with
+
+  ```sh
+  npm publish --access=public
+  ```
+
+Remember to configure `package.json` properly before publishing.
 
 ## Acknowledgments
 
