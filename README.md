@@ -1,6 +1,8 @@
 # cli-card
 
-Cli card is a node.js project to show yout contact information directly on the cli.
+Cli card is a `node.js` project to show yout contact information directly on the cli.
+
+Everyone can get your information just by running `npx your-name` on the cli!
 
 ![screenshot](screenshots/screenshot.png)
 
@@ -14,7 +16,7 @@ https://github.com/micheledinelli/cli-card.git
 
 ## Set up
 
-Edit card.js adding your contact information. You'll find a json object; add and modify key-value pairs as you like.
+Edit `card.js` adding your contact information. You'll find a json object; add and modify key-value pairs as you like.
 
 ```json
 {
@@ -49,10 +51,21 @@ Edit card.js adding your contact information. You'll find a json object; add and
   npm link
   ```
 
-- Run with
+> [!WARNING]
+> You may receive a `npm error code EACCES`.
+>
+> Just run
+>
+> ```sh
+> sudo npm link
+> ```
+
+- Finally run with
+
   ```sh
   npx command
   ```
+
   where `command` is **your handle**
 
 ## Ship it
