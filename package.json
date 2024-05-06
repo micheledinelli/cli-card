@@ -1,0 +1,23 @@
+{
+  "name": "cli-card",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "cli-card": "./card.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "card"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "prettyjson": "^1.2.5"
+  },
+  "type": "module"
+}
