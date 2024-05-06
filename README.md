@@ -1,6 +1,8 @@
 # cli-card
 
-Cli card is a node.js project to show contact information directly on the cli.
+Cli card is a node.js project to show yout contact information directly on the cli.
+
+![screenshot](screenshots/screenshot.png)
 
 ## Installation
 
