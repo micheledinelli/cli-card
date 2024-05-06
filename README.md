@@ -31,7 +31,7 @@ Edit `card.js` adding your contact information. You'll find a json object; add a
 
 ## Run
 
-- In `package.json` modify `cli-card` with your desired entry command
+- In `package.json` modify `cli-card` with your desired entry command (aka **handle**)
 
   ```json
   "bin": {
@@ -66,7 +66,7 @@ Edit `card.js` adding your contact information. You'll find a json object; add a
   npx command
   ```
 
-  where `command` is **your handle**
+  where `command` is your **handle**
 
 ## Ship it
 
