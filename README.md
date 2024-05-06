@@ -11,7 +11,7 @@ Clone this repo with `https://github.com/micheledinelli/cli-card.git`
 Edit card.js adding your contact information. You'll find a json object like this, add and modify key-value pairs as you like.
 
 ```json
-const data = {
+{
   "name": "<your-name>",
   "handle": "<your-handle>",
   "twitter": "https://twitter.com/your-twitter",
@@ -55,3 +55,7 @@ const data = {
 - Publish with `npm publish --access=public`
 
 Remember to configure `package.json` properly before publishing. Modify package name
+
+## Acknowledgments
+
+Thanks to this really simple [tutorial](https://medium.com/@gn4rtistic/building-a-cli-contact-card-with-node-js-a-step-by-step-guide-1c409c5b1b35) for the idea and part of the code.
