@@ -6,11 +6,15 @@ Cli card is a node.js project to show yout contact information directly on the c
 
 ## Installation
 
-Clone this repo with `https://github.com/micheledinelli/cli-card.git`
+Clone this repo with
+
+```
+https://github.com/micheledinelli/cli-card.git
+```
 
 ## Set up
 
-Edit card.js adding your contact information. You'll find a json object like this, add and modify key-value pairs as you like.
+Edit card.js adding your contact information. You'll find a json object; add and modify key-value pairs as you like.
 
 ```json
 {
@@ -19,8 +23,8 @@ Edit card.js adding your contact information. You'll find a json object like thi
   "twitter": "https://twitter.com/your-twitter",
   "github": "https://github.com/your-github",
   "labelTwitter": "<twitter-label>",
-  "labelGitHub": "<github-label>",
-};
+  "labelGitHub": "<github-label>"
+}
 ```
 
 ## Run
